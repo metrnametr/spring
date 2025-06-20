@@ -1,0 +1,241 @@
+.circle {
+    border-radius: 50%;
+}
+
+.body {
+    background-color: #0C1110;
+}
+
+.header {
+    padding: 24px;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: right;
+    vertical-align: middle;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #0E0E0E;
+}
+
+.header > :nth-child(1) {
+    /* flex: 1 1 50%; */
+    flex-grow: .22;
+    text-align: left;
+}
+
+.container {
+    position: relative;
+}
+
+body {
+    --color1: #000000;
+    --color2: #0E0E0E;
+    --color3: #271510;
+    --color4: #623F33;
+    --color5: #F0FAFF;
+    --color6: #FF5C16;
+    background: var(--color2);
+}
+
+.body > :nth-child(1) {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 66px;
+    left: 80px;
+    border-radius: 4576.61px;
+    border-width: 0.46px;
+    padding: 2.63px;
+    background: var(--color6);
+}
+
+
+.body > :nth-child(2) {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 126px;
+    left: 20px;
+    border-radius: 4576.61px;
+    border-width: 0.46px;
+    padding: 2.63px;
+    background: var(--color1);
+    border: 0.46px solid var(--color4);
+}
+
+
+.body > :nth-child(3) {
+    position: absolute;
+    width: 112px;
+    height: 112px;
+    top: 888px;
+    left: 24px;
+    border-radius: 4576.61px;
+    border-width: 0.46px;
+    padding: 2.63px;
+    background: var(--color3);
+    border: 0.46px solid var(--color4);
+}
+
+
+.body > :nth-child(4) {
+    position: absolute;
+    width: 1022px;
+    height: 1022px;
+    top: 2px;
+    left: 0px;
+    border-radius: 50%;
+    padding: 44.83px;
+    background: var(--color1);
+    border: 8px solid var(--color3);
+}
+
+
+
+.body > :nth-child(5) {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    top: 66px;
+    left: 977px;
+    border-radius: 50%;
+    padding: 5.26px;
+    background: var(--color1);
+    border: 1px solid var(--color4);
+}
+
+
+.body > :nth-child(6) {
+    position: absolute;
+    width: 379px;
+    height: 379px;
+    top: 47px;
+    left: 1031px;
+    border-radius: 28908.91px;
+    padding: 16.63px;
+    background: var(--color1);
+    background-image: url('/img/trih.png');
+    background-size: contain;
+}
+
+
+.body > :nth-child(7) {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 426px;
+    left: 1350px;
+    border-radius: 4576.61px;
+    border-width: 0.46px;
+    padding: 2.63px;
+
+    background: var(--color6);
+}
+
+
+.body > :nth-child(8) {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 539px;
+    left: 1094px;
+    border-radius: 4576.61px;
+    border-width: 0.46px;
+    padding: 2.63px;
+
+
+    background: var(--color3);
+    border: .46px solid var(--color4);
+}
+
+
+.body > :nth-child(9) {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 599px;
+    left: 1290px;
+    border-radius: 9153.22px;
+    border-width: 1px;
+    padding: 5.26px;
+
+
+
+    background: var(--color1);
+    border: 1px solid var(--color4);
+}
+
+
+.body > :nth-child(10) {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 880px;
+    left: 931px;
+    border-radius: 9153.22px;
+    border-width: 0.92px;
+    padding: 5.26px;
+    background: var(--color6);
+}
+
+
+.body > :nth-child(11) {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 940px;
+    left: 1350px;
+    border-radius: 4576.61px;
+    border-width: 0.46px;
+    padding: 2.63px;
+
+    background: var(--color3);
+    border: .46px solid var(--color4);
+}
+
+
+
+.body > :nth-child(12) {
+    position: absolute;
+    width: 316px;
+    height: 160px;
+    top: 750px;
+    left: 1094px;
+    border-radius: 16px;
+    border-width: 1px;
+    padding: 20px;
+    gap: 12px;
+    background: var(--color3);
+    border: 1px solid var(--color6);
+}
+
+.title {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: var(--color5);
+}
+
+.description {
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: var(--color5);
+}
+
+
+#trich canvas {
+    border-radius: 50%;
+    height: 900px !important
+}

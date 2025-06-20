@@ -1,0 +1,258 @@
+.circle {
+    border-radius: 50%;
+    position: relative;
+}
+
+.xs {
+    width: 60px;
+    height: 60px;
+}
+
+.sm {
+    width: 120px;
+    height: 120px;
+}
+
+.md {
+    width: 180px;
+    height: 180px;
+}
+
+.lg {
+    width: 240px;
+    height: 240px;
+}
+
+.xl {
+    width: 360px;
+    height: 360px;
+}
+
+.xxl {
+    width: 480px;
+    height: 480px;
+}
+
+.green1 {
+    background-color: #90FFF4;
+    border: 0.92px solid #24535E;
+}
+
+.green2 {
+    background-color: #24535E;
+    border: 0.92px solid #24535E;
+}
+
+.green3 {
+    background-color: #0A2529;
+    border: 0.92px solid #24535E;
+}
+
+.green4 {
+    background-color: #08191C;
+    border: 0.92px solid #90FFF4;
+}
+
+.black {
+    background-color: #000000;
+    border: 0.92px solid #24535E;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(24, 60px); 
+    grid-template-rows: repeat(16, 60px); 
+  }
+
+#green-animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#green-animation canvas {
+    border-radius: 50%;
+    max-height: fit-content;
+}
+
+.body > :nth-child(1),
+.body > :nth-child(6),
+.body > :nth-child(10),
+.body > :nth-child(13),
+.body > :nth-child(40),
+.body > :nth-child(47),
+.body > :nth-child(58),
+.body > :nth-child(59),
+.body > :nth-child(62),
+.body > :nth-child(63),
+.body > :nth-child(77),
+.body > :nth-child(80),
+.body > :nth-child(81),
+.body > :nth-child(86),
+.body > :nth-child(87),
+.body > :nth-child(88),
+.body > :nth-child(103),
+.body > :nth-child(109),
+.body > :nth-child(112),
+.body > :nth-child(115),
+.body > :nth-child(116) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.body > :nth-child(7),
+.body > :nth-child(14),
+.body > :nth-child(37) {
+    grid-column: span 4;
+    grid-row: span 4;
+}
+
+.body > :nth-child(16),
+.body > :nth-child(101) {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.body > :nth-child(27) {
+    grid-column: span 6;
+    grid-row: span 6;
+    border-radius: 40px;
+}
+
+.body > :nth-child(76) {
+    grid-column: span 6;
+    grid-row: span 6;
+}
+
+.body > :nth-child(73) {
+    grid-column: span 8;
+    grid-row: span 8;
+}
+
+.xs-bottom {
+    grid-row: span 2 !important;
+    height: 50%;
+    margin-top: 100%;
+}
+
+.body > :nth-child(88) {
+    position: relative;
+    transform: scale(.78);
+    left: -13px;
+    bottom: -10px;
+}
+
+.body {
+    background-color: #0C1110;
+}
+
+.header {
+    padding: 24px;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: right;
+    vertical-align: middle;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #0C1110;
+}
+
+.header > :nth-child(1) {
+    /* flex: 1 1 50%; */
+    flex-grow: .22;
+    text-align: left;
+}
+
+.text {
+    color: white;
+    text-align: left;
+    padding: 32px;
+}
+
+.text .title {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.text .subtitle {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 10.18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 24px;
+}
+
+.text .description {
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+
+#green-small-animation canvas {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#yellow-small-animation canvas {
+    height: 240px !important;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 0.92px solid #24535E;
+}
+
+#echi canvas {
+    height: 180px !important;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 0.92px solid #24535E;
+}
+
+
+#trich canvas {
+    height: 360px !important;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 0.92px solid #24535E;
+}
+
+#cera canvas {
+    height: 240px !important;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 0.92px solid #24535E;
+}
+
+#yellow-small-animation:hover,
+#green-small-animation:hover,
+#yellow-small-animation canvas:hover,
+#green-small-animation canvas:hover,
+#echi canvas:hover,
+#echi:hover,
+#trich canvas:hover,
+#trich:hover
+#cera canvas:hover,
+#cera:hover {
+    border: 0.92px solid #90FFF4;
+}
+
+div > a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
